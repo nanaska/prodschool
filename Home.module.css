@@ -1,0 +1,13 @@
+.shop_section{
+    grid-area: content;
+    
+    
+}
+.container{
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    grid-gap: 50px;
+    grid-auto-rows: minmax(130px, auto);
+}
